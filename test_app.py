@@ -1,8 +1,11 @@
 import pytest
-from app import add, subtract
+from aplikacja import dodawanie,odejmowanie,mnozenie
 
-def test_add():
-    assert add(2, 3) == 5
+def test_dodawanie():
+    assert dodawanie(2, 3) == 5
 
-def test_subtract():
-    assert subtract(5, 2) == 3
+def test_odejmowanie():
+    assert odejmowanie(5, 2) == 3
+
+def test_mnozenie():
+    assert mnozenie(3,5) == 15
